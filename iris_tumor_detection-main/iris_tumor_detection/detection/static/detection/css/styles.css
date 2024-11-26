@@ -1,0 +1,119 @@
+/* styles.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, seri;
+    background-color: #ECDFCC;
+    color: #e7d6d6;
+    
+}
+
+header {
+    background-color: #697565;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    width: 80%;
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #697565;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    background-color: rgba(255,255,255,0.2);
+    color: rgb(228,207,207);
+    padding:0.75em;
+    margin-bottom:1em;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    outline:none
+}
+
+form button {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #697565;
+}
+
+.messages {
+    background-color: rgba(0,0,0,0.5);
+    color: #856404;
+    border: 1px solid #ECDFCC;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.messages ul {
+    list-style-type: none;
+}
+
+.messages li {
+    padding: 0.5em 0;
+}
+
+a.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #697565;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a.button:hover {
+    background-color: #697565;
+}
+
+footer {
+    text-align: center;
+    margin: 2em 0;
+    font-size: 0.85em;
+    color: #888;
+}
